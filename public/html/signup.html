@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+</head>
+<body>
+    <form >
+        <div >
+            <span>
+                <label for="firstname"
+                    >Firstname</label>
+                <input id="firstname" type="text" name="firstname" placeholder="John" autocomplete="given-name"
+                    
+                    required />
+            </span>
+            <span >
+                <label for="lastname"
+                    >Lastname</label>
+                <input id="lastname" type="text" name="lastname" placeholder="Doe" autocomplete="family-name"
+                    
+                    required />
+            </span>
+        </div>
+        <label for="email" class="block uppercase mt-2 text-s font-bold text-gray-600 uppercase">E-mail</label>
+        <input id="email" type="email" name="email" placeholder="john.doe@company.com" autocomplete="email"
+            
+            required />
+        <label for="password" class="block uppercase mt-2 text-s font-bold text-gray-600 uppercase">Password</label>
+        <input id="password" type="password" name="password" placeholder="********" autocomplete="new-password"
+            
+            required />
+        <label for="password-confirm" class="block uppercase mt-2 text-s font-bold text-gray-600 uppercase">Confirm
+            password</label>
+        <input id="password-confirm" type="password" name="password-confirm" placeholder="********"
+            autocomplete="new-password"
+            
+            required />
+        <button
+            
+            type="button" style="transition: all 0.15s ease 0s;">
+            Sign up
+        </button>
+        <p
+            >
+            Already
+            registered?</p>
+    </form>
+</body>
+</html>
