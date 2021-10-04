@@ -1,6 +1,19 @@
 [
     {
-        "Comment": "Seeded comment, this comment has been seeded no.1",
-        "datePosted": ""
+        "Comment": "Seeded comment, this comment has been seeded successfully no.1",
+        "datePosted":"monday, 01 may 2021",
+        "post_id": 1,
+        "user_id": 1
+    },
+    {
+        "Comment": "Seeded comment, this comment has been seeded successfully no.2",
+        "datePosted":"tuesday, 10 may 2021",
+        "post_id": 1,
+        "user_id": 2
+    },{
+        "Comment": "Seeded comment, this comment has been seeded successfully no.3",
+        "datePosted":"friday, 23 may 2021",
+        "post_id": 1,
+        "user_id": 3
     }
 ]
