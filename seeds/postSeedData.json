@@ -1,0 +1,21 @@
+[
+    {
+        "title": "title seeded successfully NO.1",
+        "blog": "blog seeded successfully NO.1",
+        "datePosted": "monday, 01 may 2021",
+        "user_id": 1
+    },
+    {
+        "title": "title seeded successfully NO.2",
+        "blog": "blog seeded successfully NO.2",
+        "datePosted": "tuesday, 10 may 2021",
+        "user_id": 2
+    },
+    {
+        "title": "title seeded successfully NO.3",
+        "blog": "blog seeded successfully NO.3",
+        "datePosted": "friday, 23 may 2021",
+        "user_id": 3
+    }
+    
+]
