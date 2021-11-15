@@ -3,5 +3,7 @@ const { Post, User, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 
 router.get("/", (req, res) => {
-  "page works";
+  res.render("test");
 });
+
+module.exports = router;

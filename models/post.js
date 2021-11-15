@@ -40,5 +40,8 @@ Post.init(
     modelName: "post",
   }
 );
+// Post.associate = function (models) {
+//   Post.belongsTo(models.User, { foreignKey: "user_id", as: "user" });
+// };
 
 module.exports = Post;
