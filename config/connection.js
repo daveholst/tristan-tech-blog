@@ -15,6 +15,5 @@ sequelize = new Sequelize(
     port: 3000,
   }
 );
-// }
 
 module.exports = sequelize;
